@@ -1,0 +1,251 @@
+body{
+    background: url("../images/bg.jpg");
+    background-repeat: repeat;
+    font-family: 方正粗黑宋简体;
+}
+#page{
+    display: inline-block;
+    width: 1500px;
+}
+#header{
+    width: 1500px;
+    height: 100px;
+    margin: 0;
+    float: left;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    float: left;
+    clear: left;
+    padding-left: 100px;
+    padding-right: 0;
+}
+#content{
+    background-color: #0f5c2d;
+    display: inline-block;
+    list-style: none;
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#content li{
+    float: left;
+    height: 100px;
+    width: 300px;
+}
+#content li a {
+    color: #b29eba;
+    display: block;
+    font-size: 30px;
+    line-height: 90px;
+    border-top: 1px solid #63287e;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#content li a:hover, #content li.selected a {
+    background-color: orangered;
+    color: #fff;
+    height: 100px;
+    border-left: 1px solid #63287e;
+    border-right: 1px solid #63287e;
+}
+#main{
+    display: inline-block;
+    width: 1300px;
+    margin-bottom: 25px;
+    padding-left: 100px;
+}
+#main h2{
+    color: black;
+    font-size: 30px;
+    line-height: 90px;
+    font-weight: normal;
+    margin: 0;
+}
+#main p{
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: normal;
+    margin: 0;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #c22b2c;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+.sidenav a {
+    padding: 8px 8px 50px 80px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blueviolet;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+#first {
+    position: relative;
+    width: 80%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #0f5c2d;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+#first:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#second {
+    position: relative;
+    width: 80%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-top: 60px;
+}
+#second:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+#third {
+    position: relative;
+    width: 80%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-top: 110px;
+}
+#third:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+#fourth {
+    position: relative;
+    width: 80%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#fourth:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+#fifth {
+    position: relative;
+    width: 80%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-top: 70px;
+}
+#fifth:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+#sixth {
+    position: relative;
+    width: 80%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#sixth:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+#footer {
+    background: #ffecc3  repeat-x left top;
+    width: 100%;
+    padding: 24px 0;
+    position: relative;
+    left: 0;
+}
+#footer > div {
+    width: 1300px;
+    margin: 0 auto;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    float: left;
+    clear: left;
+    padding-left: 0px;
+    padding-right: 0;
+}
+#sponsor{
+    width: 1000px;
+    height: 100px;
+    margin: 0;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.sponsor{
+    font-size: 20px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#footer p {
+    color: #685b4c;
+    line-height: 24px;
+    padding: 0 10px;
+}
+#footnote {
+    color: #b09779;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0;
+    text-align: center;
+}
